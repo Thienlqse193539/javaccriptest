@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="display-container">
+    <img id="display" src="" alt="Display Image">
+  </div>
+
+  <div class="preview-container">
+    <img class="preview" src="picture/image1.jpg" alt="Image 1: Cánh Đồng Việt Nam"
+         onmouseover="updateImage(this.src);" onmouseout="clearImage();">
+    <img class="preview" src="picture/image2.jpg" alt="Image 2: Núi Cao"
+         onmouseover="updateImage(this.src);" onmouseout="clearImage();">
+    <img class="preview" src="picture/image3.jpg" alt="Image 3: Vịnh Hạ Long"
+         onmouseover="updateImage(this.src);" onmouseout="clearImage();">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
